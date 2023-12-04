@@ -1,0 +1,68 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.skills .tools ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .tools ul li img{
+    max-width: 50px;
+    margin: 0.5rem;
+    
+}
+
+.tools h3{
+    font-size: 1.7rem;
+}
+
+.skills .personal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.personal h3{
+    font-size: 1.7rem;
+}
+
+.skills .personal ul li{
+    margin-left: 2rem;
+    padding: .5rem;
+    font-size: 1.125rem;
+    font-weight: 700;    
+}
+
+.skills .personal ul li::before{
+    content: "";
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/chec.png');
+    margin-right: 0.5rem;
+}
+
+/* mediia queries*/
+@media only screen and (min-width: 768px) {
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}

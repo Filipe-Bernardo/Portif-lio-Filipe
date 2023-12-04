@@ -25,7 +25,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assets/img/period.png');
+    background-image: url('../img/period.png');
     margin-right: 0.5rem;
 }
 

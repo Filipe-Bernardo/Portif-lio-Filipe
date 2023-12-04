@@ -44,7 +44,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../assets/img/direcional.png');
+    background-image: url('../img/direcional.png');
     transition: .25s;
 }
 

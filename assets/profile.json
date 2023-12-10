@@ -1,0 +1,67 @@
+{
+    "name": "Filipe J. Bernardo",
+    "photo": "/assets/img/profile.png",
+    "job": "Transição de Carreira: Desenvolvedor Front-end Junior",
+    "location": "Ribeirão Pires - SP",
+    "phone": "(11) 97353-9274",
+    "email": "filipejuniorbernardo@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+            "name": "Excel",
+            "logo": "/assets/img/excel.png"          
+        },
+        {
+            "name": "Manutenção de Computador",
+            "logo": "/assets/img/manutencao.png"          
+        }
+      ],
+      "softSkills": [
+        "Organização",
+        "Resiliencia",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Boa comunicação"
+      ]
+    },
+    "languages": [
+      "Português BR (Nativo)",
+      "Inglês (Avançado)"      
+    ],
+    "portfolio": [
+      {
+        "name": "Formulario de Cadastro Têxtil Sauter",
+        "url": "https://filipe-bernardo.github.io/Formulario-Cadastro-Sauter/",
+        "github": true
+      },
+      {
+        "name": "Clone Página HBOMax",
+        "url": "https://filipe-bernardo.github.io/DesafioHBOMax/",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Assistente Administrativo / Têxtil Sauter",
+        "period": "2022 - até o momento",
+        "description": "Responsável pelo Faturamento (Cadastro de clientes | Emissão de NF-e | Cartas de Correção. Apoio ao Contas a Receber com: Baixas no Sistema Totvs Protheus | Emissão de boletos  e envio de remessa via CNAB | Relatórios Gerenciais."
+      },
+      {
+        "name": "Coordenador Administrativo / ACIARP",
+        "period": "2009 - 2022",
+        "description": "Experiência de 13 anos no setor Administrativo, contemplando o Contas a Receber, Contas a Pagar, Tesouraria, RH e TI."
+      }      
+    ]
+  }

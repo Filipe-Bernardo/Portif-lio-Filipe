@@ -1,6 +1,6 @@
 {
     "name": "Filipe J. Bernardo",
-    "photo": "/assets/img/profile.png",
+    "photo": "assets/img/profile.png",
     "job": "Transição de Carreira: Desenvolvedor Front-end Junior",
     "location": "Ribeirão Pires - SP",
     "phone": "(11) 97353-9274",
@@ -21,11 +21,11 @@
         },
         {
             "name": "Excel",
-            "logo": "/assets/img/excel.png"          
+            "logo": "assets/img/excel.png"          
         },
         {
             "name": "Manutenção de Computador",
-            "logo": "/assets/img/manutencao.png"          
+            "logo": "assets/img/manutencao.png"          
         }
       ],
       "softSkills": [

@@ -7,220 +7,96 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
     <title>Portifólio Filipe J Bernardo</title>
 </head>
     
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/img/profile.png" alt="foto de perfil" class="photo">
-            <h1 class="title">Olá, <br> eu sou o Filipe J. Bernardo</h1>
+            <img src="/assets/img/profile.png" alt="foto de perfil" class="photo" id="profile.photo">
+            <h1 class="title">Olá, <br> eu sou <span id="profile.name">Carregando...</span></h1>
         
             <div class="information">
                 <h2>Assistente administrativo</h2>
-                <p class="job">Iniciante a Desenvolvedor Front-end Junior</p>
-                <p class="location">Ribeirão Pires - SP - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(11) 97353-9274">(11) 97353-9274</a>
+                    <a href="tel:(11) 97353-9274" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto: filipejuniorbernardo@gmail.com">filipejuniorbernardo@gmail.com</a>
+                    <a href="mailto: ex@mail.com" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Habilidades</h2>
-            </button>            
+            </button> 
+
                <div class="content">
                    <div class="skills">
                        <section class="tools">
                         <h3>Hard skills:</h3>
-                        <ul>
+                        <ul id="profile.skills.hardSkills">
+                           
                             <li>
-                                <img src="assets/img/HTML.png" alt="html" title="html">
+                                <img src="/assets/img/excel.png" alt="excel" title="excel">
                             </li>
                             <li>
-                                <img src="assets/img/CSS.png" alt="css" title="css">
-                            </li>
-                            <li>
-                                <img src="assets/img/JavaScript.png" alt="js" title="js">
-                            </li>
-                            <li>
-                                <img src="assets/img/excel.png" alt="excel" title="excel">
-                            </li>
-                            <li>
-                                <img src="assets/img/pngwing.com.png" alt="manut computer" title="manutencao computadores">
+                                <img src="/assets/img/pngwing.com.png" alt="manut computer" title="manutencao computadores">
                             </li>
                         </ul>
                        </section>
+
                        <section class="personal">
                         <h3>Soft skills:</h3>
-                        <ul>
+                        <ul id="profile.skills.softSkills">
                             <li>
-                                Organizado
+                                Carregando...
                             </li>
                             <li>
-                                Resiliente
+                                Carregando...
                             </li>
                             <li>
-                                Bom relacionamento Inter-Pessoal
-                            </li>
-                            <li>
-                                Facilidade em aprender e a ensinar
-                            </li>
-                            <li>
-                                Boa Comunicação
-                            </li>
-                            <li>
-                                Flexibilidade
-                            </li>
+                                Carregando...
+                            </li>                            
                         </ul>
                        </section>
                    </div>
                </div>            
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Portfólio</h2>
-            </button>            
+            </button>  
+
                <div class="content">
-                  <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Formulario de Cadastro Textil Sauter</h3>
-                        <a href="https://filipe-bernardo.github.io/Formulario-Cadastro-Sauter/" target="_blank"><span class="link-portifolio">Clique aqui!</span></a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Clone Página HBOMax</h3>
-                        <a href="https://filipe-bernardo.github.io/DesafioHBOMax/" target="_blank"><span class="link-portifolio">Clique aqui!</span></a>
-                    </li>
-                    
+                  <ul class="portfolio" id="profile.portfolio">                   
                   </ul>
                </div>            
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Experiencia Profissional</h2>
-            </button>            
+            </button>
+
                <div class="content">
-                  <ul class="experience">
-                    <li>
-                        <h3 class="title company">Têxtil Sauter</h3>
-                        <p class="period">Ago 2022 a Atual</p>
-                        <div class="aciarp">                            
-                            Experiencia de 1 ano no setor Admistrativo/Faturamento.
-                            <h4>Faturamento:</h4>
-                            <ul>
-                                <li>
-                                    Cadastro de Clientes no sistema Totvs Protheus;
-                                </li>
-                                <li>
-                                    Emissão de NF-e/ Cartas de Correção/ Cancelamento de NF-e ;
-                                </li>
-                                <li>
-                                    Apoio ao setor de Vendas quanto assuntos do faturamento.
-                                </li>
-                            </ul>
-                            <h4>Contas a receber:</h4>                            
-                                <ul>
-                                    <li>
-                                        Baixa de contas receber no sistema e no banco (quando boleto);
-                                    </li>
-                                    <li>
-                                        Emissão de boletos e envio de remessa via CNAB;
-                                    </li>
-                                    <li>
-                                        Relatório de inadimplencia para a Gerencia.
-                                    </li>
-                                </ul>
-                                <h4>RH:</h4>                            
-                                <ul>
-                                    <li>
-                                        Apoio ao RH quando necessário;
-                                    </li>
-                                                                       
-                                </ul>
-                                <h4>E-commerce/ Outros</h4>                           
-                                <ul>
-                                    <li>
-                                        Apoio ao departamento de e-commerce quando solicitado;
-                                    </li>                                                            
-                                </ul>
-                                <h4>Compras</h4>                           
-                                <ul>
-                                    <li>
-                                        Criação de Planilhas e Quadros no excel com produtos importados e datas de chegada de containers;
-                                    </li>
-                                    <li>
-                                        Captação via formulario de vendas perdidas e itens a serem comprados.
-                                    </li>                                                             
-                                </ul>                              
-                            </div>
-                    </li>
-                    <li>
-                        <h3 class="title company">ACIARP</h3>
-                        <p class="period">Jul 2009 a Jul 2022</p>
-                        <div class="aciarp">                            
-                            Experiencia de 13 anos no setor admistrativo e financeiro da ACIARP.
-                            <h4>Contas a receber:</h4>
-                            <ul>
-                                <li>
-                                    Emissão e Baixa de boletos em sistema e nos bancos;
-                                </li>
-                                <li>
-                                    Relatorios de contas recebidas e inadimplencia para a Diretoria;
-                                </li>
-                                <li>
-                                    Conferencia e fechamento da Tesouraria.
-                                </li>
-                            </ul>
-                            <h4>Contas a pagar:</h4>                            
-                                <ul>
-                                    <li>
-                                        Agendamento de pagamentos em bancos;
-                                    </li>
-                                    <li>
-                                        Relatórios de contas a pagar para a diretoria;
-                                    </li>
-                                    <li>
-                                        Analise para redução de despesas.
-                                    </li>
-                                </ul>
-                                <h4>RH:</h4>                            
-                                <ul>
-                                    <li>
-                                        Admissão e demissão de colaboradores;
-                                    </li>
-                                    <li>
-                                        Fechamento de folha de pagamento e férias;
-                                    </li>                                    
-                                </ul>
-                                <h4>T.I:</h4>                           
-                                <ul>
-                                    <li>
-                                        Primeiro Suporte na manutenção de computadores e impressoras;
-                                    </li>
-                                    <li>
-                                        Configuração e instalação de alguns softwares;
-                                    </li>                                    
-                                </ul>                            
-                            </div>
-                    </li>                   
+                  <ul class="experience" id="profile.professionalExperience">                                    
                   </ul>
                </div>            
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Formação Acadêmica</h2>
             </button>            
@@ -239,17 +115,18 @@
                </div>            
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Idiomas</h2>
-            </button>            
+            </button>    
+
                <div class="content">
-                  <ul class="languages">
+                  <ul class="languages" id="profile.languages">
                     <li>
-                        Português (Nativo)
+                        Carregando...
                     </li>
                     <li>
-                        Inglês (Avançado)
+                        Carregando...
                     </li>
                     
                   </ul>
@@ -257,7 +134,9 @@
         </section>
     </main>
 
-    <script src="assets/js/acordeon.js"></script>
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
